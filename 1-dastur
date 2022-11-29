@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, c, V, S;
+    cout << "Parallelopipedning tomonlarini kiriting: " << endl;
+    cout << "a = "; cin >> a >> endl;
+    cout << "b = "; cin >> b >> endl;
+    cout << "c = "; cin >> c >> endl;
+
+    V = a * b * c;
+    S = 2 (a*b + b*c + a*c);
+
+    cout << "Parallelepipedning hajmi: " << V << endl;
+    cout << "Parallelepipedning tola sirti: " << S << endl;
+
+    return 0;
+}
