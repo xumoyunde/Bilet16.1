@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main {
+  float x, y;
+  if(x==y) {
+    cout << "Sonlar teng" << endl;
+  } else if(x > y) {
+      cout << x << " soni katta" << endl;
+  } else {
+    cout << y << " soni katta" << endl;
+  }
+  return 0;
+}
